@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(一) - Connect 概览
+title: Kafka Connect源码解读系列(一) - Connect概览
 date: 2023-03-12 19:30:38
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 Apache Kafka 是一种高吞吐量的分布式发布订阅消息队列系统,广泛应用于大数据领域的数据传输和处理。Kafka Connect 作为 Kafka 生态中的一员,扮演着将外部数据集成到 Kafka 的重要角色。本文将对 Kafka Connect 的架构设计和核心概念进行概览,为后续的源码分析做好铺垫。

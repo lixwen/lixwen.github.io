@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(三) - 数据转换和 Offset 管理
+title: Kafka Connect源码解读系列(三) - 数据转换和Offset管理
 date: 2023-03-13 22:13:25
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 在前两篇文章中,我们分别介绍了 Kafka Connect 的架构概览以及 Worker 和 Connector 的实现原理。本文将继续探讨 Connect 中另外两个重要的概念:数据转换(Transformation)和 Offset 管理。

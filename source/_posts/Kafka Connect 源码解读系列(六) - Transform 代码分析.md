@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(六) - Transform 代码分析
+title: Kafka Connect源码解读系列(六) - Transform代码分析
 date: 2023-03-27 21:03:32
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 在数据流经 Kafka Connect 的传输过程中,通常需要对数据记录执行一些转换操作,以满足特定的需求。Kafka Connect 提供了灵活的数据转换机制,支持在 Connector 级别和 Task 级别定义转换逻辑。本文将围绕 Transformation 接口、内置转换实现、转换配置和执行时机等方面,深入分析 Transform 相关代码。

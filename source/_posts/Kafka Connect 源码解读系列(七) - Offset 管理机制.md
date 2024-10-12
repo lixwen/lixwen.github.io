@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(七) - Offset 管理机制
+title: Kafka Connect源码解读系列(七) - Offset管理机制
 date: 2023-04-10 22:05:31
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 Offset 是 Kafka Connect 用于跟踪数据传输进度的关键概念。Source Connector 使用 Offset 记录从外部系统读取数据的位置,而 Sink Connector 则使用 Offset 跟踪写入目标系统的进度。Connect 提供了自动化的 Offset 管理机制,确保在出错或重启时能够从上次的位置继续处理数据。本文将围绕 Offset 的持久化存储、提交策略、故障恢复机制以及管理 API 等方面,深入分析 Offset 管理相关的核心代码实现。

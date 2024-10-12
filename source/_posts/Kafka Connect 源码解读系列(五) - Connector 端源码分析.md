@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(五) - Connector 端源码分析
+title: Kafka Connect源码解读系列(五) - Connector端源码分析
 date: 2023-03-17 22:03:31
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 在上一篇文章中,我们分析了 Worker 端的核心实现,包括 Worker 启动流程、Herder 的职责以及 Rebalance 机制的源码实现。本文将继续剖析 Connector 端的相关代码,重点包括 Connector 接口、Source/Sink Connector 的实现、Task 执行流程以及 Connector 生命周期管理。

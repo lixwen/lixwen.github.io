@@ -1,9 +1,10 @@
 ---
-title: Kafka Connect 源码解读系列(二) - Worker 和 Connector 原理分析
+title: Kafka Connect源码解读系列(二) - Worker和Connector原理分析
 date: 2023-03-12 20:23:10
 tags: 
     - 技术
     - kafka
+    - java
 ---
 
 在上一篇文章中,我们对 Kafka Connect 的整体架构和核心概念有了初步了解。本文将聚焦于 Connect 中最核心的两个组件 Worker 和 Connector,深入分析它们的实现原理。
