@@ -1,5 +1,5 @@
 ---
-title: Agent 记忆系统：从 Stateless Agent 到 Memory-Aware Agent
+title: Agent 记忆系统的遗忘机制：让智能体记住重要的，也忘掉该忘的
 date: 2026-05-06 12:00:00
 tags:
   - AI
@@ -9,6 +9,8 @@ categories:
   - 学习笔记
 ---
 
+
+# Agent Memory 遗忘机制：让智能体记住重要的，也忘掉该忘的
 
 在讨论 Agent Memory 时，我们往往更关注“如何记住”。
 
